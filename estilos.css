@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #01504d38;
+}
+
 :root{
     --Color-Barra-Navegacion: black;
+    --Color-input-formulario: rgb(223, 223, 223);
+    --Color-Letra: rgb(145, 145, 145);
 }
 
 .barra-izquierda-iconos{
@@ -26,12 +32,12 @@
 }
 
 .iconos-sitios-web{
-    margin-top: 530px;
+    margin-top: 500px;
 }
 
 .iconos-sitios-web img {
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     margin-left: 15px;
 }
 
@@ -41,7 +47,7 @@
 }
 
 .contenedor-barra-navegacion{
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 
@@ -58,58 +64,142 @@
     color: var(--Color-Barra-Navegacion);
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    padding: 5px 5px 180px 180px;
+    padding: 5px 5px 90px 130px;
     font-weight: 600;
 }
 
 .barra-navegacion img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    right: 380px;
-    top: 45px;
+    right: 460px;
+    top: 39px;
 }
 
-.barra-navegacion .contacto-numero{
+.barra-navegacion .contacto-telefonico .contacto-numero{
     font-size: 25px;
-}
-
-.contacto-numero a{
-    color: #01504d;
+    margin-left: 30px;
+    color: green;
 }
 
 .contenedor-columnas{
     position: relative;
     height: 100%;
-    background-color: violet;
 }
 
 
 .seccion-medio{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     height: 78%;
     width: 78.5%;
     position: absolute;
-    top: 18%;
-    left: 14%;
+    top: 15%;
+    left: 13%;
 
 } 
 
 .contenedor-columnas{
     background-color: purple;
-    height: 200%;
+    height: 700%;
+    width: 800%;
     position: relative;
-    box-shadow: 2px 2px 20px -3px;
 }
 
 .columna-izquierda{
+    background-image: linear-gradient(to top, #296c67c5 0%, #16766b57 99%, #1b7063b8 100%), url(Salud-dental.png);
     background-size: cover;
     background-position: top center;
     height: 100%;
     width: 50%;
     position: absolute;
-    background-color: violet;
+    text-align: justify;
 }
+
+.columna-izquierda h1 {
+    font-size: 3rem;
+    margin-top: 300px;
+    line-height: 1;
+    font-weight: bold;
+    color: white;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columna-izquierda .texto-abajo{
+    margin-top: 10px;
+}
+
+.columna-izquierda h2 {
+    color: #1ba974;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columna-izquierda p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #ddd;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.primer-boton{
+    background-color: #1ba974;
+    color: white;
+    margin-left: 5px;
+    vertical-align: middle;
+    border: 2px #1ba974;
+}
+
+
+.botones .primer-boton{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 170px;
+    margin-left: 60px;
+    font-weight: bold;
+
+}
+
+.botones .primer-boton img{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.segundo-boton{
+    background-color: transparent;
+    color: white;
+    margin-left: 5px;
+    vertical-align: middle;
+    border: 2px solid #1ba974;;
+}
+
+.botones .segundo-boton{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 170px;
+    margin-left: 60px;
+    color: #01504d;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botones .segundo-boton img{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
 
 .columna-derecha{
     background-color: rgb(255, 255, 255);
@@ -117,5 +207,128 @@
     width: 50%;
     position: absolute;
     left: 50%;
+    box-shadow: 4px 4px 20px -10px  #01504d;
+}
+
+.columna-derecha h1{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #10865b;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.formulario{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    display: block;
+}
+
+.primera-pregunta {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    color: var(--Color-Letra);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.formulario input[type="text"]{
+    width: 200px;
+    display: block;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: var(--Color-input-formulario);
+    border: 1px solid var(--Color-input-formulario);
+    margin-top: 20px;
+}
+.segunda-pregunta{
+    display: inline-block;
+    margin-left: 100px;
+    color: var(--Color-Letra);
+}
+
+.tercera-pregunta{
+    display: inline-block;
+}
+.titulo-label{
+    margin-left: 50px;
+    color: var(--Color-Letra);
+}
+.formulario input[type="email"]{
+    display: block;
+    padding: 8px;
+    width: 510px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: var(--Color-input-formulario);
+    border: 1px solid var(--Color-input-formulario);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+
+.formulario input[type="tel"]{
+    display: block;
+    padding: 8px;
+    width: 510px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: var(--Color-input-formulario);
+    border: 1px solid var(--Color-input-formulario);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+.date-formulario{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.formulario input[type="date"]{
+    width: 200px;
+    display: block;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: var(--Color-input-formulario);
+    border: 1px solid var(--Color-input-formulario);
+    margin-top: 20px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    margin-right: 165px;
+
+}
+
+.time-formulario{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.formulario input[type="time"]{
+    width: 200px;
+    display: block;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: var(--Color-input-formulario);
+    border: 1px solid var(--Color-input-formulario);
+    margin-top: 20px;
+}
+
+.formulario label {
+    font-weight: 600;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+input::placeholder{
+    font-style: italic;
+    padding: 10px;
 }
 
