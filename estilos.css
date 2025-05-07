@@ -32,18 +32,18 @@ body{
 }
 
 .iconos-sitios-web{
-    margin-top: 500px;
+    margin-top: 550px;
 }
 
 .iconos-sitios-web img {
-    width: 50%;
-    margin-bottom: 25px;
-    margin-left: 15px;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 .iconos-sitios-web .icono-youtube{
-    margin-left: 13px;
-    width: 60%;
+    margin-left: 10px;
+    width: 70%;
 }
 
 .contenedor-barra-navegacion{
@@ -64,7 +64,7 @@ body{
     color: var(--Color-Barra-Navegacion);
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    padding: 5px 5px 90px 130px;
+    padding: 5px 5px 90px 140px;
     font-weight: 600;
 }
 
@@ -72,13 +72,13 @@ body{
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 460px;
+    right: 520px;
     top: 39px;
 }
 
 .barra-navegacion .contacto-telefonico .contacto-numero{
     font-size: 25px;
-    margin-left: 30px;
+    margin-left: 80px;
     color: green;
 }
 
@@ -94,7 +94,7 @@ body{
     width: 78.5%;
     position: absolute;
     top: 15%;
-    left: 13%;
+    left: 12.5%;
 
 } 
 
@@ -200,6 +200,15 @@ body{
     vertical-align: middle;
 }
 
+.puntitos-abajo{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+ .puntitos-abajo img{
+    width: 8%;
+    padding-right: 10px;
+ }
 
 .columna-derecha{
     background-color: rgb(255, 255, 255);
@@ -223,7 +232,7 @@ body{
 
 .formulario{
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 80px;
     display: block;
 }
 
@@ -302,7 +311,6 @@ body{
 
 input[type="date"]::-webkit-calendar-picker-indicator{
     margin-right: 165px;
-
 }
 
 .time-formulario{
@@ -320,6 +328,16 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     margin-top: 20px;
 }
 
+input[type="time"]::-webkit-calendar-picker-indicator{
+    margin-right: 140px;
+}
+
+.titulo-date-time{
+    color: var(--Color-Letra);
+    margin-left: 5px;
+}
+
+
 .formulario label {
     font-weight: 600;
     font-size: 19px;
@@ -332,3 +350,29 @@ input::placeholder{
     padding: 10px;
 }
 
+.boton-formulario{
+    background-color: #1ba974;
+    color: white;
+    margin-left: 5px;
+    vertical-align: middle;
+    border: 2px #1ba974;
+    margin-top: 40px;
+}
+
+
+.boton-formulario{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 170px;
+    margin-left: 225px;
+    font-weight: bold;
+
+}
+
+.boton-formulario img{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
