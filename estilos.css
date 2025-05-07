@@ -68,6 +68,11 @@ body{
     font-weight: 600;
 }
 
+.barra-navegacion a:hover{
+    color: red;
+    cursor: pointer;
+}
+
 .barra-navegacion img{
     width: 50px;
     height: 50px;
@@ -231,9 +236,49 @@ body{
 }
 
 .formulario{
+    --Color-Fondo-Formulario: #006b687c;
     margin-bottom: 20px;
     margin-left: 80px;
     display: block;
+}
+
+.formulario input[type="text"]:hover{
+    border: 2px solid rgb(11, 121, 17);
+}
+.formulario input[type="email"]:hover{
+    border: 2px solid rgb(11, 121, 17);
+}
+.formulario input[type="tel"]:hover{
+    border: 2px solid rgb(11, 121, 17);
+}
+.formulario input[type="date"]:hover{
+    border: 2px solid rgb(11, 121, 17);
+}
+.formulario input[type="time"]:hover{
+    border: 2px solid rgb(11, 121, 17);
+}
+
+.formulario input[type="text"]:focus{
+    background-color: var(--Color-Fondo-Formulario);
+    color: white;
+}
+.formulario input[type="email"]:focus{
+    background-color: var(--Color-Fondo-Formulario);
+    color: white;
+}
+.formulario input[type="tel"]:focus{
+    background-color: var(--Color-Fondo-Formulario);
+    color: white;
+}
+.formulario input[type="date"]:focus{
+    background-color: var(--Color-Fondo-Formulario);
+    color: white;
+    border: 1px solid ;
+}
+.formulario input[type="time"]:focus{
+    background-color: var(--Color-Fondo-Formulario);
+    color: white;
+    border: 1px solid ;
 }
 
 .primera-pregunta {
