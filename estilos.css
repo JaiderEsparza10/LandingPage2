@@ -111,7 +111,7 @@ body{
 }
 
 .columna-izquierda{
-    background-image: linear-gradient(to top, #296c67c5 0%, #16766b57 99%, #1b7063b8 100%), url(Salud-dental.png);
+    background-image: linear-gradient(to top, #296c67c5 0%, #16766b57 99%, #1b7063b8 100%), url(Imagenes/Salud-dental.png);
     background-size: cover;
     background-position: top center;
     height: 100%;
